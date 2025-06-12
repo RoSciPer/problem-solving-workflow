@@ -22,9 +22,12 @@ This is a simple Streamlit app that visualizes how I approach complex problems â
 
 ```bash
 # 1. Clone the repository
+```bash
 git clone https://github.com/tavsvards/problem-solving-workflow.git
+```
+```bash
 cd problem-solving-workflow
-
+```
 # 2. Create and activate virtual environment
 python3 -m venv venv
 source venv/bin/activate
