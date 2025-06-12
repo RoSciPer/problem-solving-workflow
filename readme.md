@@ -20,7 +20,7 @@ This is a simple Streamlit app that visualizes how I approach complex problems �
 
 ## 🚀 Running Locally
 
-```bash
+
 # 1. Clone the repository
 ```bash
 git clone https://github.com/tavsvards/problem-solving-workflow.git
@@ -29,14 +29,21 @@ git clone https://github.com/tavsvards/problem-solving-workflow.git
 cd problem-solving-workflow
 ```
 # 2. Create and activate virtual environment
+```bash
 python3 -m venv venv
+```
+```bash
 source venv/bin/activate
-
+```
 # 3. Install dependencies
+```bash
 pip install -r requirements.txt
+```
 
 # 4. Run the app
+```bash
 streamlit run app.py
+```
  🧱 Dependencies
 streamlit
 
@@ -63,14 +70,4 @@ MIT — feel free to use, modify, and share.
 Made with ❤️ by [RoSciPer (Janis)]
 
 
----
 
-### 🔧 Ko darīt tālāk:
-
-1. **Izveido repo:**
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial commit: problem-solving diagram app"
-   git remote add origin https://github.com/tavsvards/problem-solving-workflow.git
-   git push -u origin main
